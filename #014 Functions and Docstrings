@@ -1,0 +1,40 @@
+print('This is Declared Variable!')
+Atharva_Roll_no = 13
+Anay_Roll_no = 10
+Sum_of_Roll_nos = sum((Atharva_Roll_no,Anay_Roll_no))
+print(Sum_of_Roll_nos)
+
+print('This is Variable which has to be Declared!')
+print('Please enter a number as A!')
+A = int(input())
+print('Please enter a number for B!')
+B = int(input())
+print('The sum of these numbers is', A+B)
+
+print('This is (a bit advanced) Functions! Or a Mini-Python Story made by Atharva (I am gonna make a big one later)')
+def Sanskruti():
+    print('You mistakenly went inside Sanskruti!\n')
+    print('Your reaction: I am inside Sanskruti! OH MY GOD!')
+Sanskruti()
+
+def Pranav(a, b):
+    print('You somehow came out of Sanskruti\n',
+        'But no,'
+        'You are inside Pranav!\n',
+          'Pranav says,'
+          'I will be adding 2 numbers (32 and 47)!\n',
+          'I have given you this', a+b)
+Pranav(32, 47)
+
+def Average(a, b):
+    """This is the function which will calculate average of 2 no.s (32 and 45)
+    But sadly, you can't enter your two no.s:-(
+    As, it's not a user input function."""
+    average = (a+b)/2
+    print(average)
+    return ('I am gonna give you an average of 32 and 45 '
+        'I have given you this', average)
+Variable_for_Average = Average(32, 45)
+print(Variable_for_Average)
+
+print(Average.__doc__)
