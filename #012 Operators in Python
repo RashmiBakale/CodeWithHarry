@@ -1,0 +1,79 @@
+#This is Operators in Python.
+
+"""
+Operators in Python:-
+Arithmatic Operator
+Assignment Operator
+Comparision Operator
+Logical Operator
+Identity Operator
+Membership Operator
+Bitwise Operator
+"""
+
+#----------------------------------------Arithmatic Operators---------------------------------------#
+print("Arithmatic Operators")
+print("1+2 is", 1+2)
+print("1-2 is", 1-2)
+print("1*2 is", 1*2)
+print("1/2 is", 1/2)
+print("1//2 is", 1//2)
+print("1**2 is", 1**2)
+print("1%2 is", 1%2)
+
+#----------------------------------------Assignment Operators----------------------------------------#
+print("Assignment Operators")
+x=789
+print(x)
+x+=9
+print("x+=9 is", x)
+#----------------------------------------Comparison Operators----------------------------------------#
+print("Comparison Operators")
+Atharva = 7
+Bakale = 6
+print(Atharva==345)
+print(Atharva!=345)
+print(Atharva>=345)
+print(Atharva<=345)
+print(Atharva==Bakale)
+print(Atharva!=Bakale)
+print(Atharva>=Bakale)
+print(Atharva<=Bakale)
+#----------------------------------------Logical Operators----------------------------------------#
+print("Logical Operators")
+a=True
+b=False
+print(a and a)
+print(a and b)
+print(b and b)
+print(b and a)
+print(a or a)
+print(a or b)
+print(b or b)
+print(b or a)
+print(a is a)
+print(a is b)
+print(b is b)
+print(b is a)
+print(a is not a)
+print(a is not b)
+print(b is not b)
+print(b is not a)
+#----------------------------------------Membership Operators----------------------------------------#
+print("Membership Operators")
+list = [1,3,5,7,9,11,13,15,17,19]
+print(3 in list)
+print(1 in list)
+print(3 not in list)
+print(1 not in list)
+print(3245 in list)
+print(3245 not in list)
+#-----------------------------------------Bitwise Operators------------------------------------------#
+print("Bitwise Operators")
+"""
+0 - 00
+1 - 01
+2 - 10
+3 - 11"""
+print(0&1)
+print(0|1)
