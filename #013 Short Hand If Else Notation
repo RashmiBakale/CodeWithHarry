@@ -1,0 +1,12 @@
+#This is Short Hand If Else Notation in Python.
+
+Atharva=int(input("Please enter a number for Atharva!\n"))
+Rohan=int(input("Please input a number for Rohan!\n"))
+
+if Atharva>Rohan: print("Atharva Rohan se bohot bada hai!")
+elif Atharva==Rohan: print("Atharva aur Rohan same hai!")
+else: print("Rohan Atharva se thoda sa bada hai!")
+
+Rahul = int(input("Please enter a number for Rahul!\n"))
+Harry = int(input("Please enter a number for Harry!\n"))
+print("Rahul Harry se bada hai!") if Rahul>Harry else print("Harry Rahul se bada hai!")
