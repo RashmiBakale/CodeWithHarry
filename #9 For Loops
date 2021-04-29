@@ -1,0 +1,15 @@
+#This is the For Loops in Python.
+
+list1 = [["Atharva", 1],
+         ["Rahul", 3],
+         ["Rohan", 4],
+         ["Harry", 250]]
+
+dict1 = dict(list1)
+print(dict1)
+
+for item in dict1:
+    print("Sir, you item is:-",item)
+
+for item,lollipop in dict1.items():
+    print("The lollipop log is:-",item,"And lollipop is",lollipop)
