@@ -1,0 +1,56 @@
+#This is the use of String Slicing and some other features in Python.
+
+mystr = 'Atharva wants to become a pro COD Mobile player! '
+print (len(mystr))
+print (mystr[0:49])
+print (mystr[0:49:2])
+
+print (mystr[:49])
+print (mystr[0:])
+print (mystr[0::2])
+
+print (mystr[:])
+print (mystr[::])
+print (mystr[0:49:1])
+
+print (mystr[:49:1])
+print (mystr[::1])
+print (mystr[::1])
+
+print (mystr[::12])
+print (mystr[::19])
+print (mystr[::555555559])
+
+print (mystr[-1:4])
+print (mystr[-4:5])
+print (mystr[-4:-2])
+
+print (mystr[::-1])
+print (mystr[::-2])
+print(mystr[15:17:-1])
+
+print (mystr.isalnum())
+print (mystr.isalpha())
+mystr2 = 'Atharva is a good boy! '
+print (mystr2.isalpha())
+print (mystr.isalnum())
+
+print (mystr.endswith('player! '))
+print (mystr.endswith('noplayer'))
+print (mystr2.endswith('boy! '))
+print (mystr2.endswith('girl'))
+
+print (mystr.count('A'))
+print (mystr2.count('V'))
+print (mystr.capitalize())
+print (mystr2.capitalize())
+
+print (mystr.find('wants'))
+print (mystr2.find('good'))
+print (mystr.lower())
+print (mystr2.lower())
+print (mystr.upper())
+print (mystr2.upper())
+
+print (mystr.replace('COD Mobile','Free Fire'))
+print (mystr2.replace('is','are'))
