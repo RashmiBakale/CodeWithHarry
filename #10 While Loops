@@ -1,0 +1,6 @@
+#These are While Loops in Python.
+
+A = 8
+while (A<8000):
+    print(A)
+    A = A + 1
