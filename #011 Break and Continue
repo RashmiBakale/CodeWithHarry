@@ -1,0 +1,13 @@
+#This is Break and Continue in Python.
+
+A = 8
+while (True):
+    A = A + 1
+    if A+1<5:
+        continue
+
+    print(A+1, end=" ")
+    if(A==999):
+        A = A + 1
+        break
+    A = A + 1
