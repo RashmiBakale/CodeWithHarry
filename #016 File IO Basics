@@ -1,0 +1,11 @@
+#This is File IO Basics in Python.
+
+"""
+"R" - Open file for reading. (Default Mode)
+"W" - Open a file for writing.
+"E" - Creates a file if not exists.
+"A" - Add more content to a file.
+"T" - Enter text mode. (Default Mode)
+"B" - Enter Binary mode.
+"+" - Enter Read and Write mode.
+"""
