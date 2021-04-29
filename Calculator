@@ -1,0 +1,9 @@
+#This is the use of Python as a simple calculator.
+
+print(23+56)
+
+print(56-23)
+
+print(23*56)
+
+print(56/23)
