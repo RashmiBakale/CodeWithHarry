@@ -1,0 +1,47 @@
+#This is Python Dictionary and it's functions.
+print('Definition- Dictionary is nothing but key value pairs.')
+
+d1 = {}
+print(type(d1))
+
+d2 = {"Atharva":"Pizza",
+      "Rahul":"Burger",
+      "Rohan":"Chicken",
+      "Shubham":{"B":"Noodles","L":"Salad","D":"Mutton"}}
+d2["Abdul"] = "Junk Food"
+d2["Shivaji"] = "Misal Pav"
+
+print(d2["Atharva"])
+print(d2["Rahul"])
+print(d2["Rohan"])
+print(d2["Shubham"])
+print(d2["Abdul"])
+print(d2["Shivaji"])
+
+print(d2["Shubham"]["B"])
+print(d2["Shubham"]["L"])
+print(d2["Shubham"]["D"])
+
+print(d2)
+
+del d2["Abdul"]
+print(d2)
+
+print(d2.copy())
+
+d3 = d2.copy()
+del d3["Atharva"]
+print(d2)
+
+print(d2.get("Atharva"))
+print(d2.get("Rahul"))
+print(d2.get("Rohan"))
+print(d2.get("Shubham"))
+print(d2.get("Abdul"))
+print(d2.get("Shivaji"))
+
+d2.update({"Nitin":"Fish"})
+print(d2)
+
+print(d2.keys())
+print(d2.items())
