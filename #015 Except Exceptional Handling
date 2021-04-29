@@ -1,0 +1,15 @@
+This is Except Exceptional Handling in Python.
+
+print("Enter a NUMBER for num1!")
+num1 = input()
+print("Enter a NUMBER for num2!")
+num2 = input()
+
+try:
+    print("The sum of these two NUMBERS is\n",
+        int(num1) + int(num2))
+except Exception as Virus:
+    print(Virus)
+
+print("Leave the above one.\n "
+      "But pay attention to this line!")
