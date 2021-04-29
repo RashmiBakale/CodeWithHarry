@@ -1,0 +1,15 @@
+#This is the use of Comments, Escape Sequences and Print Statements.
+
+#Please don't remove this line.
+"""
+This is a
+Multiline Comment
+"""
+"""
+This is a comment
+"""
+# print ('Guys Please join my Discord Server!', 'And please upvote it in discordbotlist! ')
+# print ('There are bots too in this server')
+# print ('C:\Python')
+#Comment before statement!
+print ('Atharva is \n a pro COD Mobile player \t2009') #Comment after statement!
