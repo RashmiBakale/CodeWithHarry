@@ -1,0 +1,29 @@
+#This is the use of variables along with operations on variables in Python.
+
+var1 =  "Bonjour avec Atharva Bakale "
+var2 = "et Anay Bakale"
+var3 = 4
+var4 = 36.7
+
+print (var1)
+print (var2)
+print (var3)
+print (var4)
+
+print (type(var1))
+print (type(var2))
+print (type(var3))
+print (type(var4))
+
+print (var1+var2)
+print (var3+var4)
+
+print (2 * "Did you join my Discord server?\n")
+print (2 * (int(var3) + int(var4)))
+
+"""
+str()
+int()
+float()
+"""
+print (int(var3) + int(var4))
