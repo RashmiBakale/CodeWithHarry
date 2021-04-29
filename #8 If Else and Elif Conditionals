@@ -1,0 +1,20 @@
+#This is the use of If Else and Elif conditionals in Python.
+
+var1 =  34
+var2 = 345
+
+var3 = int(input())
+
+if var3>var1:
+    print('Hey! Your number is greater than var1! Try inputing different numbers for different values!')
+elif var3==var1:
+    print('Hey! Your number is equal to var1! Try inputing different numbers for different values!')
+else:
+    print('Hey! Your number is less than var1! Try inputing different numbers for different values!')
+
+list1 = [3, 6, 9]
+print(15 not in list1)
+if 6 in list1:
+    print("Yes! It's in the list!")
+if 34 not in list1:
+    print("No! It's not in the list!")
