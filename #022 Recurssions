@@ -1,0 +1,27 @@
+#This is Recursive and Iterative Approach in Python.
+
+def Factorial_Iterative(A):
+    """
+        :param A: Integer
+        :return: n*n-1 * n-2 * n-3 * n-4...1
+        """
+    fac = 1
+    for B in range(A):
+        fac = fac * (B+1)
+    return fac
+
+def Factorial_Recursive(A):
+    """
+
+    :param Z:
+    :return:
+    """
+    A = int(input())
+    if A==0:
+        return 1
+    else:
+        return A * Factorial_Recursive(A-1)
+
+number = int(input("Please enter a number."))
+print("Factorial Using Iterative Method is", Factorial_Iterative(number))
+print("Factorial Using Recursive Method is", Factorial_Recursive(number))
