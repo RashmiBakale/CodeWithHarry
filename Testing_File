@@ -1,0 +1,19 @@
+#This is the all time use Testing File.
+
+Atharva = "Boy"
+
+def Joke(str):
+    print(f"This function is a joke. {str}")
+
+def Harry(string):
+    return f"Give me this string back!{string}"
+
+def Addition(num1, num2):
+    return num1 +num2 + 5
+
+print("And the name of the file from where we got this program is",__name__, "\nThe addition of your numbers is.")
+
+if __name__ == '__main__':
+    print(Harry(" I won't give this string back to you!"))
+    Atharva = Addition(23,12)
+    print(Atharva)
