@@ -1,0 +1,5 @@
+print("How to open through With BLock:-")
+with open("Python Tutorials (Code With Harry).txt") as File:
+    File = open("Python Tutorials (Code With Harry).txt")
+    F_Read = File.read()
+    print(F_Read)
