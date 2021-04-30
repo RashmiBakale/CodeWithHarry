@@ -1,0 +1,16 @@
+#This is F-String and String Formatting in Python.
+
+import math
+
+Atharva = "Me"
+Anay = "\nAnay is OP"
+A_FullForm = "Atharva is %s %s"%(Atharva, Anay)
+
+A = "This is me {1} {0}"
+B = A.format(Atharva, Anay)
+
+print(B)
+print(A_FullForm)
+
+C = f"\nThis is {Atharva} {Anay} {math.cos(65)}"
+print(C)
