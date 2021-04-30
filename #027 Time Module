@@ -1,0 +1,21 @@
+#This is Time module in Python.
+
+import time
+
+Initial = time.time()
+print(Initial)
+
+B = 0
+while(B<5):
+    print("This is Atharva Bakale.")
+    time.sleep(2)
+    B += 1
+print("While loop ran in",time.time()-Initial, "Seconds")
+
+Initial_2 = time.time()
+for A in range(5):
+    print("This is Atharva Bakale.")
+print("For loop ran in",time.time()-Initial_2, "Seconds")
+
+Local_Time = time.asctime(time.localtime(time.time()))
+print("Your current time and location is", Local_Time)
