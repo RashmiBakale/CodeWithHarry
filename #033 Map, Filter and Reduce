@@ -1,0 +1,57 @@
+#This is map, filter and reduce in Python.
+
+#--------------------------------------------------MAP------------------------------------------------------------------
+
+Numbers = ["13", "15", "16", "17", "19"]
+
+Numbers = list(map(int, Numbers))
+
+for I in range(len(Numbers)):
+    Numbers[I] = int(Numbers[I])
+
+Numbers[2] = Numbers[2] = 1
+print(Numbers[2])
+
+
+def SQ(A):
+    return A*A
+
+Func = [SQ]
+for A in range(6):
+    Val = list(map(lambda x:x(A), Func))
+    print(Val)
+
+Num = [1,2,3,4,5,6,7,8,9,0]
+Square = list(map(SQ, Num))
+
+print(Square)
+
+Num = [1,2,3,4,5,6,7,8,9,0]
+Square = list(map(lambda x: x*x, Num))
+
+print(Square)
+
+#--------------------------------------------------FILTER---------------------------------------------------------------
+
+def Cube(A):
+    return A*A*A
+
+def Raised_To_4(A):
+    return A*A*A*A
+
+List_For_Filter = [1,2,3,4,5,6,7,8,9]
+
+def Is_Greater(Num):
+    return Num>5
+
+Greater_Than_5 = list(filter(Is_Greater, List_For_Filter))
+print(Greater_Than_5)
+
+#--------------------------------------------------REDUCE------------------------------------------------------------------
+
+from functools import reduce
+
+List_For_Reduce = [1,2,3,4,5,6]
+Num1 = reduce(lambda x,y:x+y, List_For_Reduce)
+
+print(Num1)
