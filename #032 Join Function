@@ -1,0 +1,12 @@
+#This is join Function in Python.
+
+List = ["Rohan", "Atharva",
+        "Rahul", "Riya",
+        "Priya"]
+
+for Item in List:
+    print(Item, "and", end=" ")
+
+A = ",".join(List)
+print("other siblings.")
+print("Above was without join function, this is using join Function", A)
