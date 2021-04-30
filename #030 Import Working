@@ -1,0 +1,15 @@
+#This is the working of Import in Python.
+
+import sklearn as SK
+import sys as System
+from sklearn.ensemble import RandomForestClassifier
+import Testing_File
+
+print("The current version of sklearn module is",SK.__version__)
+print("The current system path is", System.path)
+print("The imported class of the module is", RandomForestClassifier)
+print("According to the records [Testing_File.], Atharva is a", Testing_File.Atharva)
+
+from Testing_File import Atharva
+print("According to records [from import], Atharva is a", Atharva)
+Testing_File.Joke("\nThis was a very funny joke.")
