@@ -1,0 +1,21 @@
+#This is the Excercise of Python #20.
+#Q.Create a guess the no.
+n=23
+no_of_guesses=1
+print('No. of guesses is limited to 5')
+print('Please guess a number')
+while (no_of_guesses<5):
+    guess_number=int(input())
+    if guess_number<23:
+        print('You entered a smaller number!Try entering a greater value!')
+    elif guess_number>23:
+        print('You entered a greater number!Try entering a lesser value!')
+    else:
+        print('Bravo! You have guessed the correct number!')
+        print(no_of_guesses,"is your guesses count")
+        break
+    print(5-no_of_guesses,"guesses left!")
+    no_of_guesses=no_of_guesses+1
+
+if (no_of_guesses>5):
+    print("You've exceded your guesses! Game Over")
