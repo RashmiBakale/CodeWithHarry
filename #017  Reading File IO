@@ -1,0 +1,64 @@
+#This is reading File IO in Python.
+
+F_Open = open("Python Tutorials (Code With Harry).txt")
+F_Read = F_Open.read()
+print(F_Read)
+
+F_Close = F_Open.close()
+
+F_Open = open("Python Tutorials (Code With Harry).txt", "r")
+F_Read = F_Open.read()
+print(F_Read)
+
+F_Close = F_Open.close()
+
+F_Open = open("Python Tutorials (Code With Harry).txt", "rb")
+F_Read = F_Open.read()
+print(F_Read)
+
+F_Close = F_Open.close()
+
+F_Open = open("Python Tutorials (Code With Harry).txt", "rt")
+F_Read = F_Open.read()
+print(F_Read)
+
+F_Close = F_Open.close()
+
+F_Open = open("Python Tutorials (Code With Harry).txt", "r+")
+F_Read = F_Open.read()
+print(F_Read)
+
+F_Close = F_Open.close()
+
+F_Open = open("Python Tutorials (Code With Harry).txt", "r")
+F_Read = F_Open.read(53)
+print(F_Read)
+
+F_Close = F_Open.close()
+
+F_Open = open("Python Tutorials (Code With Harry).txt", "r")
+F_Read = F_Open.read(53000)
+print(F_Read)
+
+F_Close = F_Open.close()
+
+print("If you wanna read the whole file line-by-line, here's the file (line-by-line) for you!")
+for line in F_Read:
+    print(line)
+
+F_Open = open("Python Tutorials (Code With Harry).txt", "r")
+for line in F_Open:
+    print(line)
+F_Close = F_Open.close()
+
+F_Open = open("Python Tutorials (Code With Harry).txt", "r")
+for line in F_Open:
+    print(line,end="")
+F_Close = F_Open.close()
+
+F= open("Python Tutorials (Code With Harry).txt")
+print(F.readline())
+print(F.readline())
+
+A = open ("Python Tutorials (Code With Harry).txt")
+print(A.readlines())
