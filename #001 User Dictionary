@@ -1,0 +1,10 @@
+#This is the Quiz of Python #11.
+#Q1.Create a dictionary and take input from User.
+dictionary = {"Age":"12",
+              "Height":"160",
+              "Address":"India",
+              "Weight":"32kg"}
+print ('Please input your word! (Key=Age, Height, Address and Weight)')
+inpdic = input()
+print("Here is your word's meaning! ", dictionary[inpdic])
+print ("Thanks for using my dictionary!")
