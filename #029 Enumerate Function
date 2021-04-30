@@ -1,0 +1,13 @@
+#This is enumerate function in Python.
+
+List = ["Lady Finger", "Potato", "Cutlery", "Noodles"]
+
+A = 1
+for Item in List:
+    if A%2!=0:
+        print(f"The required item is {Item}")
+    A+=1
+
+for Index, Things_To_Buy in enumerate(List):
+    if Index%2==0:
+        print(f"The required item is {Things_To_Buy}")
