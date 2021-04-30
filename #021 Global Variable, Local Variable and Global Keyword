@@ -7,12 +7,12 @@ Local Variables - are variables that work according to the fuction wi which they
 
 number = 100
 
-def function(Anay):
+def function(Rahul):
     number_2 = 300
     global number
     number = number +300
     print(number, number_2)
-    print(Anay, "But I've already printed Anay!")
+    print(Rahul, "But I've already printed Rahul!")
 function("This is Atharva!")
 
 def Atharva():
@@ -21,15 +21,15 @@ def Atharva():
         global A
 
         print(number)
-        print("Before calling Anay()", A)
+        print("Before calling Rahul()", A)
         Anay()
-        print("After calling Anay()", A)
+        print("After calling Rahul()", A)
 
 def Testing():
-    Nittya = 300
+    Rohan = 300
     def Testing2():
-        global Nittya
-    print('Before calling testing 2', Nittya)
+        global Rohan
+    print('Before calling testing 2', Rohan)
     Testing2()
-    print('After calling testing 2', Nittya)
+    print('After calling testing 2', Rohan)
     Testing()
