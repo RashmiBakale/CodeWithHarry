@@ -1,0 +1,28 @@
+#This is *args and **kwargs in Python.
+
+def Function_Name(A, B, C, D, E, F, G):
+    print(A, B, C, D, E, F, G)
+
+def Function_Args(Normal, *args_Atharva, **kwargs):
+    print(Normal)
+
+    print("Type of args is", type(args_Atharva))
+    print(args_Atharva[0])
+
+    print("\nNow I would like to introduce you to our students.")
+
+    for Member in args_Atharva:
+        print(Member)
+
+    print("\nNow I would like to introduce you to our friends' qualities:-")
+
+    for key, value in kwargs.items():
+        print(f"{key} is a {value}")
+
+Family = ["Member's of family by using Args are [line by line]:-", "Atharva", "Anay", "Nittya", "Shreedhee ", "Radha", "Pranav"]
+
+Normal = "This is a normal argument."
+KW = {"Atharva":"Good Boy", "Rohan":"Bad Boy", "Riya":"Good Girl", "Priya":"Good Girl", "Shreya":"Good Girl"}
+
+Function_Name("Member's of family by using Function are", "Atharva", "Rohan", "Riyaa", "Priya", "Shreya", "Rahul")
+Function_Args(Normal, *Family, **KW)
