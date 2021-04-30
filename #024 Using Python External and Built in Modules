@@ -1,0 +1,13 @@
+#This is using Python and it's Built in Modules.
+
+import random
+
+Random_Number = random.randint(0,5)
+print("Your random no. from 1 - 5 is", Random_Number)
+
+Random = random.random() * 100
+print("A random number picked for you is,",Random)
+
+List = ["SonySab","Weirdotic", "Chapati Hindustani Gamer" ,"BeastBoyShub"]
+Choice = random.choice(List)
+print("A channel from your favorites is", Choice)
