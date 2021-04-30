@@ -1,0 +1,11 @@
+#This is seek(), tell() in Python.
+
+File = open("Python Tutorials (Code With Harry).txt")
+# print(File.tell())
+print(File.readline())
+# print(File.tell())
+File.seek(0)
+print(File.readline())
+File.seek(22)
+# print(File.tell())
+File_close = File.close()
