@@ -1,0 +1,35 @@
+#This is Variable Scope and Global Variables in Python.
+
+"""
+Global Variables - are variables that have access to or they can work with the whole program.
+Local Variables - are variables that work according to the fuction wi which they are being used.
+"""
+
+number = 100
+
+def function(Anay):
+    number_2 = 300
+    global number
+    number = number +300
+    print(number, number_2)
+    print(Anay, "But I've already printed Anay!")
+function("This is Atharva!")
+
+def Atharva():
+    A = 50
+    def Anay():
+        global A
+
+        print(number)
+        print("Before calling Anay()", A)
+        Anay()
+        print("After calling Anay()", A)
+
+def Testing():
+    Nittya = 300
+    def Testing2():
+        global Nittya
+    print('Before calling testing 2', Nittya)
+    Testing2()
+    print('After calling testing 2', Nittya)
+    Testing()
