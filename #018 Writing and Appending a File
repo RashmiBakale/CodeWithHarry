@@ -1,0 +1,23 @@
+#This is Writing and Appending a File in Python.
+
+F_Open = open("Python Tutorials v2.0 (Code With Harry).txt", "a")
+F_Open.write("\nYou all (person who is reading this file) need to subscribe CodeWithHarry!\n")
+F_Open.close()
+
+#To find out the no. of characters in the file.
+File_Open = open ("Python Tutorials v2.0 (Code With Harry).txt", "a")
+File = File_Open.write("\nYou have to subscribe him in anyway possible!")
+print(File)
+File_Close = File_Open.close()
+
+#Mistakenly opening the file in Write mode instead of Append mode.
+File_Open_open = open("Python Tutorials v2.0 (Code With Harry).txt", "w")
+File_write = File_Open_open.write("Oops! I opened it in write mode instead of Append mode and ended it's data!")
+print(File_write)
+File_Close_close = File_Open_open.close()
+
+#How to open a file both in Read mode and Append mode.
+# Handle read and write both
+F = open("Python Tutorials (Code With Harry).txt", "r+")
+print(F.read())
+F.write("You subscribed him write?")
