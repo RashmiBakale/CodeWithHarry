@@ -1,0 +1,5 @@
+#This is Classes & Objects [OOPS] in Python.
+
+Classes = ("Templates")
+Object = ("Instance of Class")
+DRY = ("Do not repeat yourself")
