@@ -1,0 +1,26 @@
+#This is the first Python Class following the instructions of Harry.
+
+class Student:
+    pass
+
+Atharva = Student()
+Anay = Student()
+
+Atharva.Name = "Atharva"
+Atharva.Std = 8
+Atharva.Section = "B"
+
+Anay.Name = "Anay"
+Anay.Std = 5
+Anay.Section = "A"
+
+print("Atharva's location in Disk is", Atharva)
+print("Anay's location in Disk is" , Anay)
+
+print("Atharva's Name is", Atharva.Name)
+print("Atharva's Std is", Atharva.Std)
+print("Atharva's Section is", Atharva.Section)
+
+print("Anay's Name is", Anay.Name)
+print("Anay's Std is", Anay.Std)
+print("Anay's Section is",Anay.Section)
