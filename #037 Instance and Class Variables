@@ -1,0 +1,38 @@
+#This is Instance and Class Variables in Python.
+
+class Employee:
+    No_Of_Leaves = 10
+    pass
+
+Atharva = Employee()
+Rohan = Employee()
+
+Atharva.Name = "Atharva"
+Atharva.Salary = "50000"
+Atharva.Role = "Manager"
+
+Rohan.Name = "Rohan"
+Rohan.Salary = 45000
+Rohan.Role = "Instructor"
+
+print("Name of Employee 1 is", Atharva.Name)
+print("Salary of Employee 1 is", Atharva.Salary)
+print("Role of Employee 1 is", Atharva.Role)
+
+print("\nName of Employee 2 is", Rohan.Name)
+print("Salary of Employee 2 is", Rohan.Salary)
+print("Role of Employee 2 is", Rohan.Role)
+
+print("\nTotal leaves for Employee 1 are", Atharva.No_Of_Leaves)
+print("Total leaves for Employee 2 are", Rohan.No_Of_Leaves)
+
+print("\nTotal no. of leaves for all the Employees are", Employee.No_Of_Leaves)
+
+Employee.No_Of_Leaves = 15
+
+print("\nThe total no. of leaves for all the Employees [after being changed] are", Employee.No_Of_Leaves)
+
+print("\nAll the properties of Atharva are", Atharva.__dict__)
+print("All the properties of Rohan are", Rohan.__dict__)
+
+print("\nAll the properties of all the Employees are", Employee.__dict__)
