@@ -1,0 +1,34 @@
+#This is constructors in Python.
+
+class Worker:
+    No_of_Working_Days = 6
+    def __init__(self, name, salary, role):
+        self.name = name
+        self.salary = salary
+        self.role = role
+
+    def Details(self):
+        return f"The name is {self.Name}. Salary is {self.Salary} and role is {self.Role}."
+
+Rahul = Worker("Rahul", 56000, "Contractor")
+Dhruv = Worker("Dhruv", 50000, "Co-Contractor")
+
+Rahul.Name = "Rahul"
+Rahul.Salary = 56000
+Rahul.Role = "Contractor"
+
+Dhruv.Name = "Dhruv"
+Dhruv.Salary = 50000
+Dhruv.Role = "Co-Contractor"
+
+print(Rahul.No_of_Working_Days)
+print(Dhruv.No_of_Working_Days)
+
+print(Rahul.Details())
+print(Dhruv.Details())
+
+Rahul.No_of_Working_Days = 7
+Dhruv.No_of_Working_Days = 7
+
+print("The no. of working days for Rahul is", Rahul.No_of_Working_Days)
+print("The no. of working days for Dhruv", Dhruv.No_of_Working_Days)
