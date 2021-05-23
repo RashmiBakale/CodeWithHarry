@@ -1,0 +1,36 @@
+#This is class methods in Python.
+
+class Coder:
+    no_of_programs = 5000
+
+    def __init__(self, Name, Salary, Position):
+        self.Name = Name
+        self.Salary = Salary
+        self.Position = Position
+
+    def PrintDetails(self):
+        return f"The name is {self.Name}. The salary us {self.Salary}. (And) The position is {self.Position}"
+
+    @classmethod
+    def change_programs(cls, edited_programs):
+        cls.no_of_programs = edited_programs
+
+Harry = Coder("Harry", 50000, "Professional Coder")
+Swastik = Coder("Swastik", 45000, "Veteran Coder")
+
+print(Harry.PrintDetails())
+print(Swastik.PrintDetails())
+
+print("No. of programs of Harry is", Harry.no_of_programs)
+print("No. of programs of Swastik is", Swastik.no_of_programs)
+
+Harry.change_programs(6000)
+Swastik.change_programs(6000)
+
+print("No. of programs of Swastik (changed through Instance) is", Harry.no_of_programs)
+print("No. of programs of Swastik (changed through Instance) is", Swastik.no_of_programs)
+
+Coder.change_programs(6000)
+
+print("No. of programs of Harry (changed through Class) is", Harry.no_of_programs)
+print("No. of programs of Swastik (changed through Class) is", Swastik.no_of_programs)
